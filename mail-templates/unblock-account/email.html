@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
+		<title>Email Template</title>
+		<style type="text/css" media="screen">
+			body { 
+				padding: 0 !important;
+				margin: 0 !important;
+				font-family: 'Lato', sans-serif;
+			}
+			a {
+				color: #396DFE;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body style="background: #f4f4f4">
+		<table style="width: 90%; background: white; border-radius: 4px; margin: 0 auto; margin-top: 50px; margin-bottom: 50px;">
+			<tr>
+				<td style="border-bottom: 1px solid rgba(0,0,0,.1);">
+					<h1 style="text-align: center; font-size: 36px; font-weight: 700; color: rgb(56, 62, 83);">Bookly</h1>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid rgba(0,0,0,.1); padding: 0px 40px; padding-top: 20px; padding-bottom: 40px;">
+					<p style="font-size: 18px; font-weight: 400; color: rgb(56, 62, 83);">
+						Hello, <span style="font-weight: 700;">{{name}}</span>! <br><br>
+						In order to unblock your account please click on the button below.
+						<br>
+						The link will be active only for {{time}} hours/days.
+					</p>
+					<div style="position: relative;left: 50%;transform:translateX(-50%);width: max-content; margin: 60px 0;">
+						<a href="{{link}}" target="_blank" style="margin-right: 10px; display: inline-block; height: 40px; padding: 10px 25px; border: 2px solid #396DFE; background: #396DFE;color: white; text-decoration: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-align: center; line-height: 40px;">
+								Unblock your account
+						</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="margin: 0 auto; width: max-content; text-align-last: center;">
+						<a href="email.plain.txt" target="_blank" style="font-size: 16px; color: rgb(114,123,150); margin-top: 15px; margin-bottom: 20px; display: block;">
+							View email in plain text
+						</a>
+						<p style="font-size: 16px; color: rgb(114,123,150); display: block; margin-bottom: -5px;">
+							<a href="" target="_blank" >Bookly</a> - Powered by <a href="" target="_blank" >Strance</a> • <a href="" target="_blank" >@booklyapp</a> • <a href="" target="_blank" >Support</a>
+						</p>
+						<p style="font-size: 16px; color: rgb(114,123,150); display: block;">
+							Horgasz utca 32., Nyíregyháza, Hungary
+						</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,148 @@
+const mongoose = require('mongoose');
+
+const phone = {
+    number:{
+        type:String,
+        required:true
+    },
+    country:{
+        type:String,
+        required:true
+    }
+};
+const payment_intent = {
+    value:{
+        type:String,
+        required:true
+    },
+    hash:{
+        type:String,
+        required:true
+    }
+};
+const charge_id = {
+    value:{
+        type:String,
+        required:true
+    },
+    hash:{
+        type:String,
+        required:true
+    }
+};
+const table = {
+    ID:{
+        type:String,
+        required:true
+    },
+    name:{
+        type:String,
+        required:true
+    }
+};
+const service = {
+    ID:{
+        type:String,
+        required:true
+    },
+    price:{
+        type:Number,
+        required:true
+    },
+    title:{
+        type:String,
+        required:true
+    },
+    duration:{
+        type:Number,
+        required:true
+    }
+};
+const date = {
+    year:{
+        type:Number,
+        required:true
+    },
+    month:{
+        type:Number,
+        required:true
+    },
+    day:{
+        type:Number,
+        required:true
+    },
+    hour:{
+        type:Number,
+        required:true
+    },
+    minutes:{
+        type:Number,
+        required:true
+    }
+};
+const bookings = mongoose.model('bookings',new mongoose.Schema({
+    ID:{
+        type:String,
+        required:true
+    },
+    table:{
+        type:table,
+        required:true
+    },
+    service:{
+        type:service,
+        required:true
+    },
+    merchantID:{
+        type:String,
+        required:true
+    },
+    paymentType:{
+        type:String,
+        required:true
+    },
+    paid:{
+        type:Boolean,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    phone:{
+        type:phone,
+        required:true
+    },
+    name:{
+        type:String,
+        required:true
+    },
+    address:{
+        type:String, // enter your full address (Eg. Big Ocean Avenue 37/2A,San Francisco,<zip code>,California, United States of America)
+        required:false
+    },
+    record_ts:{
+        type:Number,
+        required:false
+    },
+    payment_intent:{
+        type:payment_intent,
+        required:false
+    },
+    charge_id:{
+        type:charge_id,
+        required:false
+    },
+    event_id:{ // stripe event ID
+        type:String,
+        required:false
+    },
+    date:{
+        type:date,
+        required:true
+    }
+    // store receipt ID? + time?
+}));
+module.exports = {
+    bookings
+}

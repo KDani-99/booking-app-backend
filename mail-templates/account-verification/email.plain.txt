@@ -1,0 +1,13 @@
+Hello, {{name}}!
+To use your account, you have to verify your email address by clicking the link below.
+
+{{link}}
+
+If you have any trouble feel free to contact with us: {{supportLink}}
+
+
+
+
+
+
+Sent by Bookly - Powered by Strance

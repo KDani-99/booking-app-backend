@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"booking-app.email-verifications"}],"uuid":"b3d2800ef51b46a7b46903f74a51cb45"}

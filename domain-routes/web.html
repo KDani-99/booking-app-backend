@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <button onclick="request()">Clcik</button>
+    <script>
+        function request()
+        {
+            console.log('click')
+            $.ajax({
+                type: 'POST',
+                url: "localhost.net:3001/api",
+                headers: {  'Access-Control-Allow-Origin': '*' },
+                crossDomain: true,
+                data: JSON.stringify(
+                    {
+
+                    }
+                ),
+                success: function(resultData) { alert(resultData) }
+            });
+        }
+    </script>
+</body>
+</html>

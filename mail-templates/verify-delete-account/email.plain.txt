@@ -1,0 +1,18 @@
+Hello, {{name}}!
+
+If you want to cancel our services and remove your account from our system, please click on the link below.
+Once you have removed your account, you will have 7 days from the date you clicked on the link to cancel the account removal process.
+Once the process is done, your account will be lost forever. We hope that we can see you in the future.
+If you have mistakenly clicked on the account removal button on our website or your don not want to remove your account, please click on the second link.
+The link will be active only for {{time}} hours/days.
+
+{{link}}
+
+If you have any trouble feel free to contact with us: {{supportLink}}
+
+
+
+
+
+
+Sent by Bookly - Powered by Strance

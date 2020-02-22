@@ -1,0 +1,14 @@
+Hello, {{name}}!
+In order to create a new password please click on the link below. 
+The link will be active only for {{time}} hours/days.
+
+{{link}}
+
+If you have any trouble feel free to contact with us: {{supportLink}}
+
+
+
+
+
+
+Sent by Bookly - Powered by Strance
