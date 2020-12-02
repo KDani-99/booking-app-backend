@@ -1,0 +1,30 @@
+{
+    "IP":"localhost",
+    "PORT":3001,
+    "token_life":{
+        "access_token":3600,
+        "refresh_token":604800
+    },
+    "automated_queries":{
+        "tokenDeletion":1800,
+        "attemptDeletionTimeout":1800
+    },
+    "company_details":{
+        "name":"Bookly"
+    },
+    "backend_address":"http://localhost:3001/",
+    "cookie_domain":"localhost.net",
+    "allowed_origins":[
+        "http://localhost:4200",
+        "http://localhost",
+        "http://localhost:3000",
+        "http://localhost:3001/",
+        "http://127.0.0.1",
+        "http://127.0.0.1:13000",
+        "test.localhost.net:3001",
+        "http://test.localhost.net:3001",
+        "http://localhost.net:3000",
+        "127.0.0.1",
+        "http://localhost.net:4200"
+    ]
+}

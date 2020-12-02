@@ -1,0 +1,17 @@
+Hello, {{name}}!
+
+In order to get started you have to first create a table. The tables will be your "groups" to make service packages. Then you will be able to add services to the table.
+For example: you make a table called "My car wash's name" and in this table you add a few service packages like "Standard wash", "Super fast wash" and "Luxury wash".
+If you have set at least one service to a table, then you will be able to share the table's booking link to your customers or you can check it out too.
+Now go and make your customers' lives easier!
+
+{{link}}
+
+If you have any trouble feel free to contact with us: {{supportLink}}
+
+
+
+
+
+
+Sent by Bookly - Powered by Strance

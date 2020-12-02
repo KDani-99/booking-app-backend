@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"booking-app.countries"}],"uuid":"b889e8cbab124e09951395dbf8e0f957"}
